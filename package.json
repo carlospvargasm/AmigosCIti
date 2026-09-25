@@ -1,19 +1,19 @@
 {
   "name": "amigosciti",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Asistente para grupo privado de WhatsApp",
+  "description": "AmigosCiti - asistente para un grupo de amigos del trabajo",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
   "dependencies": {
-    "better-sqlite3": "^11.8.1",
+    "@whiskeysockets/baileys": "^6.7.18",
     "dotenv": "^16.4.7",
     "node-cron": "^3.0.3",
     "openai": "^4.85.4",
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.26.0"
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
   },
   "engines": {
     "node": ">=20"
